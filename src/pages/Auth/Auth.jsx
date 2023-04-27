@@ -6,9 +6,9 @@ const Auth = () => {
   return (
     <div className="Auth">
       <div className="a-left">
-        <img src={Logo} alt="" />
+        {/* <img src={Lgo} alt="" /> */}
         <div className="Webname">
-          <h1>ZKC Media</h1>
+          <h1>Miineidi</h1>
           <h6>Explore the ideas throughout the world</h6>
         </div>
       </div>
@@ -21,12 +21,12 @@ function LogIn() {
     return (
       <div className="a-right">
         <form className="infoForm authForm">
-          <h3>Log In</h3>
+          <h3>Connexion</h3>
   
           <div>
             <input
               type="text"
-              placeholder="Username"
+              placeholder="email"
               className="infoInput"
               name="username"
             />
@@ -36,7 +36,7 @@ function LogIn() {
             <input
               type="password"
               className="infoInput"
-              placeholder="Password"
+              placeholder="mot de passe"
               name="password"
             />
           </div>

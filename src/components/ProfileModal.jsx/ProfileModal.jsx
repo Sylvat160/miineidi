@@ -24,14 +24,14 @@ function ProfileModal({ modalOpened, setModalOpened }) {
             type="text"
             className="infoInput"
             name="FirstName"
-            placeholder="First Name"
+            placeholder="Nom"
           />
 
           <input
             type="text"
             className="infoInput"
             name="LastName"
-            placeholder="Last Name"
+            placeholder="prenom"
           />
         </div>
 
@@ -40,7 +40,7 @@ function ProfileModal({ modalOpened, setModalOpened }) {
             type="text"
             className="infoInput"
             name="worksAT"
-            placeholder="Works at"
+            placeholder="Profession"
           />
         </div>
 
@@ -49,14 +49,14 @@ function ProfileModal({ modalOpened, setModalOpened }) {
             type="text"
             className="infoInput"
             name="livesIN"
-            placeholder="LIves in"
+            placeholder="Quartier"
           />
 
           <input
             type="text"
             className="infoInput"
             name="Country"
-            placeholder="Country"
+            placeholder="Secteur"
           />
         </div>
 
@@ -64,7 +64,7 @@ function ProfileModal({ modalOpened, setModalOpened }) {
           <input
             type="text"
             className="infoInput"
-            placeholder="RelationShip Status"
+            placeholder=""
           />
         </div>
 

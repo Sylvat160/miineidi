@@ -11,14 +11,15 @@ const FollowersCard = () => {
             return(
                 <div className="follower">
                     <div>
-                        <img src={follower.img} alt="" className='followerImage' />
+                        <img src={follower.img} alt="" className='followerImage' style={{borderRadius: "50%"}}/>
+                        
                         <div className="name">
-                            <span>{follower.name}</span>
-                            <span>@{follower.username}</span>
+                            <span>@{follower.name}</span>
+                            <span> {follower.username}</span>
                         </div>
                     </div>
                     <button className='button fc-button'>
-                        Follow
+                        voir le profil
                     </button>
                 </div>
             )
